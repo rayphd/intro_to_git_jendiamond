@@ -1,110 +1,59 @@
-Major Concepts - Concepts and vocabulary you will need to know in order to begin working with Git. Specific concepts covered include the role of the "repo" as well as defining commits and creating branches and working with others.
+# Git with Jen Diamond
+## Introduction to Git and GitHub
+##### [Intro to Git and GitHub Website](https://git-with-jendiamond.herokuapp.com)
+##### [Intro to Git and GitHub Gist](https://gist.github.com/jendiamond/18d9c1e9e801d894777a5632394034c1)
 
-Basic Git Actions - Hands-on practice with Git. We will set up a local repo, stage our files, add the files, create commits and push our changes to a remote repository.
+### Major Concepts
+Concepts and vocabulary you will need to know in order to begin working with Git. Specific concepts covered include the role of the "repo" as well as defining commits and creating branches and working with others.
 
-Branches - We will create a new branch from the master, learn how to switch branches and merge branches. 
+### Basic Git Actions
+Hands-on practice with Git  
++ Learn how to use Markdown
++ Set up a local repo
++ Stage our files
++ Add the files
++ Create commits
++ Push changes to a remote repository
++ Create a new branch from the master
++ Learn how to switch branches and merge branches
++ Learn the basics of how to discard uncommitted changes from a project 
++ Learn how to roll back a commit
++ Learn a clean Git work flow to you can clarify your work process
++ Learn to how to write a great commit message and why
 
-Undoing Changes - Learn the basics of how to discard uncommitted changes from a project as well as how to roll back commits. 
-
-Git Workflow - Learn a clean Git work flow so you can clarify your work process. 
-
-Commit Messages - Learn to how to write a great commit message and why.
-
-Markdown - Learn how to use Markdown for your comments.
 
 ---
 
-# 0 [Markdown]()
+
+## [Segment 0 Markdown](https://gist.github.com/jendiamond/18d9c1e9e801d894777a5632394034c1#file-1st_segment_git_with_jendiamond-md)
 
 + Create a Gist in Github called git_notes.md
-+ Make it public
-
-<h1>Hello World</h1>  
-<h2>Hello World</h2>  
-<h3>Hello World</h3>  
-<h4>Hello World</h4>  
-<h5>Hello World</h5>  
-<h6>Hello World</h6>  
-
-# Hello World
-## Hello World
-### Hello World
-#### Hello World
-##### Hello World
-###### Hello World
-
++ Learn how to use Markdown
 
 ---
 
-#1 Your Git Workflow :)
+## [Segment 1 Local Git & Basic Git Workflow](https://gist.github.com/jendiamond/18d9c1e9e801d894777a5632394034c1#file-2nd_segment_git_with_jendiamond-md)
 
-git init Create a git repository by typing.
-git status  Check status
-git add . Add everything to the repository
-git status  Check status
-git commit -m 'Your comment'  Commit everything (-m means message)
-git status  Check status*
-
-Look at .git
-
----
-
-#2
-
-Pull from GitHub :)
-git clone
-git remote -v
-
-Look at .git
-
-git init Create a git repository by typing.
-git status  Check status
-git add . Add everything to the repository
-git status  Check status
-git commit -m 'Your comment'  Commit everything (-m means message)
-git status  Check status*
-
-Push to GitHub :)
-Create a Github repository  https://github.com/yourgithub
-
-
-Push commit to Github git push -u origin master
+Your Git Workflow | :) 
+--------------- | ---------------
+`git status`  |  Check status  
+`git add .`   |  Add everything to the repository  
+`git status`  |  Check status  
+`git commit -m 'Your comment'` |  Commit everything (-m means message)  
+`git status` |  Check status
 
 ---
 
-#3
+## Segment 2 - Remote GitHub & GitHub
 
-Pull from GitHub :)
-git clone
+---
 
-Create a Branch
+## Segment 3 - Branching & Reset
 
-git init Create a git repository by typing.
-git status  Check status
-git add . Add everything to the repository
-git status  Check status
-git commit -m 'Your comment'  Commit everything (-m means message)
-git status  Check status*
+---
 
-Add your personal GitHub as a remote host to your local git 
- $ `git remote add origin git@githubcom:your_username/your_repository_name1`
+## Segment 4 - Cloning
 
+---
 
-Push to GitHub :)
-git push origin master
-
-#4
-git init Create a git repository by typing.
-git status  Check status
-git add . Add everything to the repository
-git status  Check status
-git commit -m 'Your comment'  Commit everything (-m means message)
-git status  Check status*
-
-#5
-git init Create a git repository by typing.
-git status  Check status
-git add . Add everything to the repository
-git status  Check status
-git commit -m 'Your comment'  Commit everything (-m means message)
-git status  Check status*
+## Segment 5 - Test yourself
